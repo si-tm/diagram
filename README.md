@@ -46,7 +46,7 @@ SoR (System of Record)、decoupling layer、SoE (System of Engagement) に分類
 ```javascript
 {
   id: 'node1',                    // ノードの一意識別子
-  systemType: 'SoR',              // システムタイプ: 'SoR' | 'decoupling' | 'SoE'
+  systemType: 'Decoupling',              // システムタイプ: 'SoR' | 'decoupling' | 'SoE'
   systemName: 'JOINT',            // システム名
   apiPath: '/v1/ryoukin',         // APIパス
   apiCallerId: null,              // このノードを呼び出すノードのID
